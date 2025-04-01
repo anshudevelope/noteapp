@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="header-top">
+                    <h1>Notes</h1>
+                    <button class="dark-mode-button" id="darkModeToggle">🌙</button>
+                </div>
+                <button class="new-note-button" id="newnote" >+ Add Note</button>
+            </div>
+            <div class="notes-list" id="noteList">
+                <!-- All notes will be displayed here -->
+                 <div class="note-item active">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+                 <div class="note-item">
+                    <h3>Test 1</h3>
+                    <p>01/04/2025</p>
+                 </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="editor-container">
+                <div class="editor-header">
+                    <input type="text" class="title-input" placeholder="Add Title" />
+                    <div class="editor-actions">
+                        <button class="action-btn" id="saveNote">Save</button>
+                        <button class="action-btn delete" id="deleteNote">Delete</button>
+                    </div>
+                </div>
+
+                <div class="editor-tabs">
+                    <button class="tab-btn active" data-tab="edit">Edit</button>
+                    <button class="tab-btn" data-tab="preview">Preview</button>
+                </div>
+
+                <div class="editor-content">
+                    <textarea placeholder="Write your note here (Markdown Supported)..." id="noteContent"></textarea>
+                    <div class="preview-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
