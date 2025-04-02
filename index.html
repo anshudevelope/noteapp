@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note Taking App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
@@ -15,22 +17,22 @@
                     <h1>Notes</h1>
                     <button class="dark-mode-button" id="darkModeToggle">🌙</button>
                 </div>
-                <button class="new-note-button" id="newnote" >+ Add Note</button>
+                <button class="new-note-button" id="newnote">+ Add Note</button>
             </div>
             <div class="notes-list" id="noteList">
                 <!-- All notes will be displayed here -->
-                 <div class="note-item active">
+                <div class="note-item active">
                     <h3>Test 1</h3>
                     <p>01/04/2025</p>
-                 </div>
-                 <div class="note-item">
+                </div>
+                <div class="note-item">
                     <h3>Test 1</h3>
                     <p>01/04/2025</p>
-                 </div>
-                 <div class="note-item">
+                </div>
+                <div class="note-item">
                     <h3>Test 1</h3>
                     <p>01/04/2025</p>
-                 </div>
+                </div>
             </div>
         </div>
 
@@ -51,10 +53,10 @@
 
                 <div class="editor-content">
                     <textarea placeholder="Write your note here (Markdown Supported)..." id="noteContent"></textarea>
-                    <div class="preview-content">
-
+                    <div class="preview-content" id="previewContent">
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -68,4 +70,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
