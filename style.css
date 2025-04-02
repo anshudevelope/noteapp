@@ -227,7 +227,6 @@ body{
     border: none;
     outline: none;
     resize: none;
-    font-family: "Monaco", monospace;
     font-size: 14px;
     line-height: 1.6;
 }
